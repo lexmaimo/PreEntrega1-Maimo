@@ -31,13 +31,13 @@ function checkIn() {
     } while (isNaN(dia) || !(dia >= 1 && dia <= 31))
 
     do {
-        let input2 = prompt(`Ingresá el mes de check-in [1-12]`)
-        mes = parseInt(input2)
+        let input = prompt(`Ingresá el mes de check-in [1-12]`)
+        mes = parseInt(input)
     } while (isNaN(mes) || !(mes >= 1 && mes <= 12))
 
     do {
-        let input3 = prompt(`Ingresá el año de check-in [2023-2024]`)
-        anio = parseInt(input3)
+        let input = prompt(`Ingresá el año de check-in [2023-2024]`)
+        anio = parseInt(input)
     } while (isNaN(anio) || !(anio >= 2023 && anio <= 2024))
 
     alert(`Tu fecha de ingreso es el ${dia}/${mes}/${anio}.`)
@@ -45,18 +45,18 @@ function checkIn() {
 
 function checkOut() {
     do {
-        let input4 = prompt(`Ingresá el día de check-out [1-31]`)
-        dia2 = parseInt(input4)
+        let input = prompt(`Ingresá el día de check-out [1-31]`)
+        dia2 = parseInt(input)
     } while (isNaN(dia2) || !(dia2 >= 1 && dia2 <= 31))
     
     do {
-        let input5 = prompt(`Ingresá el mes de check-out [1-12]`)
-        mes2 = parseInt(input5)
+        let input = prompt(`Ingresá el mes de check-out [1-12]`)
+        mes2 = parseInt(input)
     } while (isNaN(mes2) || !(mes2 >= 1 && mes2 <= 12))
     
     do {
-        let input6 = prompt(`Ingresá el año de check-out [2023-2024]`)
-        anio2 = parseInt(input6)
+        let input = prompt(`Ingresá el año de check-out [2023-2024]`)
+        anio2 = parseInt(input)
     } while (isNaN(anio2) || !(anio2 >= 2023 && anio2 <= 2024))
     
     alert(`Tu fecha de egreso es el ${dia2}/${mes2}/${anio2}.`)
