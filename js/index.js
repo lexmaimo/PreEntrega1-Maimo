@@ -192,6 +192,9 @@ function confirmacionReserva() {
     -Número de telefono: ${userTel}
     -Correo electrónico: ${userEmail}
 
+    -Fecha de check-in: ${dia}/${mes}/${anio}
+    -Fecha de check-out: ${dia2}/${mes2}/${anio2}
+
     -Categorías de habitaciones reservadas: ${habitaciones}
     -Cantidad de pasajeros adultos: ${userPax}
     -Cantidad de habitaciones: ${cantidadHabitaciones}
